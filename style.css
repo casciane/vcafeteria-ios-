@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: font1;
+    src: url(./fonts/ROMANTIC.TTF);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(./fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(./fonts/Bellerose.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ebce97;
+}
+
+.main-header{
+    padding: 1.2em;
+    background-color: #5D2F0E;
+    margin-bottom: 3em;
+}
+
+.main-header h1{
+    font-size: 6em;
+    font-family: font1;
+    color: #fdf5e6;
+    text-align: center;
+    
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2em; 
+}
+
+.container h2{
+    font-family: font3;
+    font-size: 3.5em;
+    margin-top: 0.2em;
+    margin-bottom: 1.2em;
+}
+
+
+
+.card img {
+    border-radius: 8%;
+    width: 100%;
+}
+
+.card{
+    border-radius: 4%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    margin-bottom: 2em;
+    background-color: #e6d4b3;
+    box-shadow: #5D2F0E 8px 8px 10px;
+}
+
+.card h3 {
+    padding-bottom: 0;
+    font-size: 2.5em;
+    font-family: font3;
+}
+
+.card h4{
+    margin-bottom: 1.5em;
+   font-size: 2.5em;
+   font-family: font3;
+}
+
+.card div {
+    padding: 4em;
+}
+
+.card div p{
+    text-align: justify;
+    font-family: font2;
+    font-size: 1.5em;
+}
+
+.finalcard{
+    padding: 2em;
+    border-radius: 4%;
+    margin-bottom: 2em;
+    background-color: #e6d4b3;
+    box-shadow: #5D2F0E 8px 8px 10px;
+
+}
+
+.finalcard h2{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1.5em;
+
+}
+
+.finalcard p{
+    font-size: 1.5em;
+    text-align: justify;
+
+}
+
+.card:nth-child(even) img {
+    order: 2;
+}
+
+.formulario{
+    margin: 3em;
+}
+.formulario fieldset label{
+  font-size: 2em;
+  font-family: font3;
+
+}
+
+ input{
+    height: 2em;
+    margin-left: 1.5em;
+
+}
+
+footer{
+    background-color: #5D2F0E;
+}
+
+footer p{
+    font-family: font3;
+    text-align: center;
+    color: #e6d4b3;
+    font-size: 1.6em;
+    padding: 2em;
+}
+
